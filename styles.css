@@ -268,3 +268,117 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+
+.buttons{
+    color: #070707;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.buttons-wrapper{
+    border: 3px solid #070707;
+    background:#252525;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.rgl-play-button{
+    background: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    outline: 2px solid #000;
+    color:#000;
+    height: 60px;
+    font-family: 'Lilita One', monospace;
+}
+
+.rgl-play-button:hover,.rgl-play-button:focus{
+    color: #f77000;
+    background:#ececec;
+    outline: 2px solid #f77000;
+}
+
+.rgl-button-dark-orange{
+    background: #f77000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    outline: 2px solid #000;
+    color:#000;
+    height: 60px;
+    font-family: 'Lilita One', monospace;
+}
+
+.rgl-button-dark-orange:hover,.rgl-button-dark-orange:focus{
+    color: #f77000;
+    background:#000000c5;
+    outline: 2px solid #f77000;
+}
+.rgl-button-dark-white{
+    background: #f77000;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    outline: 2px solid #000000c5;
+    color:#000;
+    height: 60px;
+    font-family: 'Lilita One', monospace;
+}
+
+.rgl-button-dark-white:hover,.rgl-button-dark-white:focus{
+    color: #f77000;
+    background:#000000c5;
+    outline: 2px solid #f77000;
+}
+.rgl-button-light-orange{
+    background: #000000c5;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    outline: 2px solid #fff;
+    color:#fff;
+    height: 60px;
+    font-family: 'Lilita One', monospace;
+}
+
+.rgl-button-light-orange:hover,.rgl-button-light-orange:focus{
+    color: #1c1c1c;
+    background:#fff;
+    outline: 2px solid #000000c5;
+}
+.rgl-button-light-white{
+    background: #000000c5;
+    text-decoration: none;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    outline: 2px solid #fff;
+    color:#fff;
+    height: 60px;
+    font-family: 'Lilita One', monospace;
+}
+
+.rgl-button-light-white:hover,.rgl-button-light-white:focus{
+    color: #1c1c1c;
+    background:#fff;
+    outline: 2px solid #000000c5;
+}
