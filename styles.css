@@ -1,5 +1,5 @@
 *{
-    font-family: 'Lilita One', cursive;
+    
     margin: 0;
 }
 
@@ -13,6 +13,8 @@ body {
     display: block;
     justify-content: center;
     margin: 15px;
+    font-family: 'Lilita One', cursive;
+    max-width: 1200px;
 }
 
 .color-palate {
@@ -184,4 +186,85 @@ body {
     color: #070707;
     font-size: 40px;
     margin-top: 20px;
+}
+
+.font-wrapper{
+    border: 3px solid #070707;
+    background:rgb(236, 236, 236);
+    display: grid;
+    grid-template-rows: 130px 1fr;
+    padding: 20px;
+}
+
+.font-display{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    justify-items: center;
+}
+
+.font-size{
+    display: grid;
+    grid-template-rows: 50px 45px 45px 120px 120px 120px;
+    font-family: 'Roboto Mono', monospace;
+    border-top: 2px solid #070707;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.font-name{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+
+}
+
+.font-style{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+}
+
+.rgl-font-bold-italic{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.rgl-text-300{
+    font-weight: 400;
+    font-size: 18px;
+}
+.rgl-text-600{
+    font-weight: 600;
+    font-size: 18px;
+}
+.rgl-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rgl-h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.rgl-h2{
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.rgl-h3{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.rgl-h4{
+    font-weight: 500;
+    font-size: 18px;
 }
